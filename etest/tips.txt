@@ -1,0 +1,8 @@
+node -v 
+
+npm install module_name
+ 
+
+//install all dependencies base on package.json
+npm install -d
+

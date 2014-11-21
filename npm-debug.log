@@ -1,0 +1,20 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express-generator',
+1 verbose cli   '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 error EEXIST, mkdir 'C:\Users\johnny.ma\AppData\Roaming\npm'
+File exists: C:\Users\johnny.ma\AppData\Roaming\npm
+Move it away, and try again.
+5 error System Windows_NT 6.1.7601
+6 error command "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express-generator" "-g"
+7 error cwd d:\poc\node_poc
+8 error node -v v0.10.33
+9 error npm -v 1.4.28
+10 error path C:\Users\johnny.ma\AppData\Roaming\npm
+11 error code EEXIST
+12 error errno 47
+13 verbose exit [ 47, true ]
